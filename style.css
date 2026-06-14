@@ -1241,10 +1241,10 @@ a {
 
 /* ===== Footer ===== */
 .footer {
-    background: var(--dark-bg);
+    background: black; /* Change to white or transparent if you want to see the text */
     padding: 80px 0 40px;
     text-align: center;
-    color: var(--off-white);
+    color: black;
 }
 
 .footer-goose {
@@ -1258,10 +1258,7 @@ a {
     font-size: 2.4rem;
     font-weight: 400;
     margin-bottom: 8px;
-    background: linear-gradient(135deg, var(--gold-light), var(--blush));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: black;
 }
 
 .footer-date {
@@ -1269,7 +1266,7 @@ a {
     font-size: 0.8rem;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.267);
+    color: rgba(0, 0, 0, 0.267);
     margin-bottom: 12px;
 }
 
@@ -1277,7 +1274,7 @@ a {
     font-family: var(--font-body);
     font-size: 1.1rem;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.185);
+    color: rgba(0, 0, 0, 0.185);
     margin-bottom: 24px;
 }
 
@@ -1294,9 +1291,10 @@ a {
     font-family: var(--font-sans);
     font-size: 0.7rem;
     letter-spacing: 2px;
-    color: rgba(255,255,255,0.25);
+    color: rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
 }
+
 
 /* ===== Animate-in (scroll reveal) ===== */
 .animate-in {
