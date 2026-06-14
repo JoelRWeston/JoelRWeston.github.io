@@ -1269,7 +1269,7 @@ a {
     font-size: 0.8rem;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.4);
+    color: rgba(255, 255, 255, 0.267);
     margin-bottom: 12px;
 }
 
@@ -1277,7 +1277,7 @@ a {
     font-family: var(--font-body);
     font-size: 1.1rem;
     font-style: italic;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.185);
     margin-bottom: 24px;
 }
 
